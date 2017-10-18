@@ -1,0 +1,79 @@
+{
+  "name": "@nationalbankbelgium/ngrx-effects",
+  "version": "1.0.0",
+  "description": "Side effect model for @nationalbankbelgium/ngrx-store",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run tsc",
+    "lint": "tslint src/**.ts",
+    "prebuild": "npm run clean",
+    "postbuild": "cpy ./{package.json,README.md,LICENSE} dist",
+    "tsc": "tsc"
+  },
+  "keywords": [
+    "RxJS",
+    "AngularJS",
+    "Redux"
+  ],
+  "author": {
+    "email": "sebastien.dubois@nbb.be",
+    "name": "Dubois Sebastien",
+    "url": "https://www.nbb.be"
+  },
+  "contributors": [
+    {
+      "email": "sebastien.dubois@nbb.be",
+      "name": "Dubois Sebastien",
+      "url": "https://www.nbb.be"
+    },
+    {
+      "email": "cedric.namotte@nbb.be",
+      "name": "Cedric Namotte",
+      "url": "https://www.nbb.be"
+    },
+    {
+      "email": "alexis.georges@nbb.be",
+      "name": "Alexis Georges",
+      "url": "https://www.nbb.be"
+    },
+    {
+      "email": "christopher.cortes@nbb.be",
+      "name": "Christopher Cortes",
+      "url": "https://www.nbb.be"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NationalBankBelgium/ngrx-effects-ng1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NationalBankBelgium/ngrx-effects-ng1.git"
+  },
+  "homepage": "https://github.com/NationalBankBelgium/ngrx-effects-ng1",
+  "dependencies": {
+    "@nationalbankbelgium/ngrx-store": "1.0.0",
+    "@types/angular": ">= 1.5.0 < 2",
+    "angular": ">= 1.5.0 < 2",
+    "rxjs": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/core-js": "0.9.43",
+    "@types/jasmine": "2.6.0",
+    "@types/node": "6.0.88",
+    "cpy-cli": "^1.0.1",
+    "core-js": "^2.4.1",
+    "jasmine-core": "^2.5.2",
+    "reflect-metadata": "^0.1.9",
+    "rimraf": "^2.5.4",
+    "ts-loader": "^0.8.2",
+    "tslint": "^4.4.2",
+    "typescript": "^2.3.0"
+  },
+  "typings": "./index.d.ts",
+  "engines": {
+    "node": ">=6.11.0",
+    "npm": ">=5.3.0"
+  }
+}
