@@ -1,4 +1,4 @@
-# @nationalbank/ngrx-effects
+# @nationalbankbelgium/ngrx-effects
 
 This is a backport of ngrx-effects (https://github.com/ngrx/effects) for AngularJS.
 
