@@ -1,5 +1,7 @@
 # @nationalbankbelgium/ngrx-effects
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/NationalBankBelgium/ngrx-effects-ng1.svg)](https://greenkeeper.io/)
+
 This is a backport of ngrx-effects (https://github.com/ngrx/effects) for AngularJS.
 
 ### Installation
